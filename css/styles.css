@@ -71,15 +71,15 @@ p {
 
     section#section1 {
         position: absolute;
-        left: 2%;
+        left: 1%;
     }
     section#section2 {
         position: absolute;
-        left: 36%;
+        left: 33%;
     }
     section#section3 {
         position: absolute;
-        left: 68%;
+        left: 66%;
     }
 }
 
@@ -91,18 +91,18 @@ p {
 
     section#section1 {
         position: absolute;
-        width: 50%;
-        left: 2%;
+        width: 47%;
+        left: 1%;
     }
     section#section2 {
         position: absolute;
-        width: 50%;
+        width: 47%;
         left: 56%;
     }
     section#section3 {
         position: absolute;
-        width: 88%;
-        left: 2%;
+        width: 98%;
+        left: 1%;
         top: 170px;
     }
 }
@@ -110,22 +110,22 @@ p {
 /* MOBILE */ 
 @media (max-width: 767px) {
     section {
-        width: 250px;
+        width: 90%;
         height: 150px;
     }
 
     section#section1 {
         position: absolute;
-        left: 2%;
+        left: 5%;
     }
     section#section2 {
         position: absolute;
-        left: 2%;
+        left: 5%;
         top: 170px;
     }
     section#section3 {
         position: absolute;
-        left: 2%;
+        left: 5%;
         top: 340px;
     }
 }

@@ -1,0 +1,25 @@
+/* ===================================================================================================================
+    The browser should display a desktop version of the site when the width of the browser window is 992px and above. 
+    Tablet view should appear only if the width of the browser window is between 768px and 991px, inclusively. 
+    Mobile view should appear only if the width of the browser is equal to or less than 767px. 
+=================================================================================================================== */
+
+/* GENERAL STYLING */ 
+section {
+    float:left;
+}
+
+/* DESKTOP */ 
+@media (min-width: 992px) {
+    
+}
+
+/* TABLET */ 
+@media (min-width: 768px) and (max-width: 991px) {
+    
+}
+
+/* MOBILE */ 
+@media (max-width: 767px) {
+    
+}

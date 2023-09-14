@@ -8,10 +8,13 @@
 body {
     /* CONSOLE FONT FOR ALL */
 	font-family: monospace; 
+    margin: 0;
+    padding: 10px;
 }
 
 section {
     background-color: grey;
+    border: 3px solid black;
 }
 
 p {

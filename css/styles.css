@@ -7,7 +7,11 @@
 /* GENERAL STYLING */ 
 section {
     background-color: grey;
-    float:left;
+    
+}
+
+p {
+    padding: 10px;
 }
 
 /* DESKTOP */ 

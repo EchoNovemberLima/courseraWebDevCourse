@@ -18,11 +18,14 @@ body {
     padding: 10px;
 }
 
+#container {
+    position: relative;
+}
+
 section {
     background-color: grey;
     border: 3px solid black;
-    margin: 20px;
-    
+    margin: 20px;   
 }
 
 h1#mainHeading {
@@ -42,6 +45,7 @@ h2.sectionTitle {
 
 h2#sectionTitle1 {
     background-color: yellow;
+    position: absolute;
 }
 h2#sectionTitle2 {
     background-color: blue;
@@ -55,6 +59,19 @@ p {
     padding: 10px;
     text-align: justify;
     display: inline-block;
+}
+
+section#section1 {
+    position: absolute;
+    right: 3%;
+}
+section#section2 {
+    position: absolute;
+    right: 33%;
+}
+section#section3 {
+    position: absolute;
+    right: 63%;
 }
 /* END OF GENERAL STYLING ======================================== */ 
 

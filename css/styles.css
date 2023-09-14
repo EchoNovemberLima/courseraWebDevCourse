@@ -5,10 +5,16 @@
 =================================================================================================================== */
 
 /* GENERAL STYLING =============================================== */ 
+/* GLOBAL RESET*/ 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     /* CONSOLE FONT FOR ALL */
 	font-family: monospace; 
-    margin: 0;
     padding: 10px;
 }
 
@@ -16,7 +22,7 @@ section {
     background-color: grey;
     border: 3px solid black;
     margin: 20px;
-    box-sizing: border-box;
+    
 }
 
 h1#mainHeading {
@@ -26,12 +32,10 @@ h1#mainHeading {
 
 h2.sectionTitle {
     font-size: 125%;
-    box-sizing: border-box;
     width: 33%;
     float: right;
     text-align: center;
     border: 3px solid black;
-    margin: 0;
     margin-top: -2px;
     margin-right: -3px;
 }
@@ -44,12 +48,12 @@ h2#sectionTitle2 {
 }
 h2#sectionTitle3 {
     background-color: maroon;
+    color: white;
 }
 
 p {
     padding: 10px;
     text-align: justify;
-    margin: 0;
     display: inline-block;
 }
 /* END OF GENERAL STYLING ======================================== */ 

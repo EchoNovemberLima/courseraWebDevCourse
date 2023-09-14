@@ -14,8 +14,7 @@
 
 body {
     /* CONSOLE FONT FOR ALL */
-	font-family: monospace; 
-    padding: 10px;
+	font-family: monospace;
 }
 
 #container {
@@ -25,7 +24,6 @@ body {
 section {
     background-color: grey;
     border: 3px solid black;
-    margin: 20px;
     overflow: hidden;
 }
 

@@ -66,15 +66,15 @@ p {
 
 section#section1 {
     position: absolute;
-    right: 4%;
+    left: 4%;
 }
 section#section2 {
     position: absolute;
-    right: 30.6%;
+    left: 37%;
 }
 section#section3 {
     position: absolute;
-    right: 61.2%;
+    left: 71%;
 }
 /* END OF GENERAL STYLING ======================================== */ 
 

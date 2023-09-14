@@ -4,15 +4,30 @@
     Mobile view should appear only if the width of the browser is equal to or less than 767px. 
 =================================================================================================================== */
 
-/* GENERAL STYLING */ 
+/* GENERAL STYLING =============================================== */ 
+body {
+    /* CONSOLE FONT FOR ALL */
+	font-family: monospace; 
+}
+
 section {
     background-color: grey;
-    
 }
 
 p {
     padding: 10px;
+    text-align: justify;
 }
+
+h1#mainHeading {
+    text-align: center;
+    font-size: 175%;
+}
+
+.sectionTitle {
+    font-size: 125%;
+}
+/* END OF GENERAL STYLING ======================================== */ 
 
 /* DESKTOP */ 
 @media (min-width: 992px) {

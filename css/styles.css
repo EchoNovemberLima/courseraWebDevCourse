@@ -26,8 +26,6 @@ section {
     background-color: grey;
     border: 3px solid black;
     margin: 20px;
-    width: 400px;
-    height: 150px;
     overflow: hidden;
 }
 
@@ -48,7 +46,6 @@ h2.sectionTitle {
 
 h2#sectionTitle1 {
     background-color: yellow;
-    position: absolute;
 }
 h2#sectionTitle2 {
     background-color: blue;
@@ -63,32 +60,72 @@ p {
     text-align: justify;
     display: inline-block;
 }
-
-section#section1 {
-    position: absolute;
-    left: 4%;
-}
-section#section2 {
-    position: absolute;
-    left: 37%;
-}
-section#section3 {
-    position: absolute;
-    left: 71%;
-}
 /* END OF GENERAL STYLING ======================================== */ 
 
 /* DESKTOP */ 
 @media (min-width: 992px) {
-    
+    section {
+        width: 30%;
+        height: 150px;
+    }
+
+    section#section1 {
+        position: absolute;
+        left: 3%;
+    }
+    section#section2 {
+        position: absolute;
+        left: 36%;
+    }
+    section#section3 {
+        position: absolute;
+        left: 69%;
+    }
 }
 
 /* TABLET */ 
 @media (min-width: 768px) and (max-width: 991px) {
-    
+    section {
+        height: 150px;
+    }
+
+    section#section1 {
+        position: absolute;
+        width: 50%;
+        left: 4%;
+    }
+    section#section2 {
+        position: absolute;
+        width: 50%;
+        left: 54%;
+    }
+    section#section3 {
+        position: absolute;
+        width: 88%;
+        left: 4%;
+        top: 170px;
+    }
 }
 
 /* MOBILE */ 
 @media (max-width: 767px) {
-    
+    section {
+        width: 250px;
+        height: 150px;
+    }
+
+    section#section1 {
+        position: absolute;
+        left: 4%;
+    }
+    section#section2 {
+        position: absolute;
+        left: 37%;
+        top: 170px;
+    }
+    section#section3 {
+        position: absolute;
+        left: 71%;
+        top: 340px;
+    }
 }

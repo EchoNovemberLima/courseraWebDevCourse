@@ -34,6 +34,9 @@ h1#mainHeading {
     box-sizing: border-box;
     width: 33%;
     float: right;
+    text-align: center;
+    border: 3px solid black;
+    margin-bottom: 20px;
 }
 /* END OF GENERAL STYLING ======================================== */ 
 

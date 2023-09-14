@@ -70,15 +70,15 @@ p {
 
     section#section1 {
         position: absolute;
-        left: 3%;
+        left: 2.5%;
     }
     section#section2 {
         position: absolute;
-        left: 36%;
+        left: 35%;
     }
     section#section3 {
         position: absolute;
-        left: 69%;
+        left: 67.5%;
     }
 }
 
@@ -96,7 +96,7 @@ p {
     section#section2 {
         position: absolute;
         width: 45.5%;
-        left: 53%;
+        left: 51.5%;
     }
     section#section3 {
         position: absolute;

@@ -30,6 +30,7 @@ section {
 h1#mainHeading {
     text-align: center;
     font-size: 175%;
+    margin: 40px;
 }
 
 h2.sectionTitle {
@@ -69,7 +70,7 @@ p {
 
     section#section1 {
         position: absolute;
-        left: 1%;
+        left: 3%;
     }
     section#section2 {
         position: absolute;
@@ -77,7 +78,7 @@ p {
     }
     section#section3 {
         position: absolute;
-        left: 66%;
+        left: 63%;
     }
 }
 
@@ -90,17 +91,17 @@ p {
     section#section1 {
         position: absolute;
         width: 47%;
-        left: 1%;
+        left: 3%;
     }
     section#section2 {
         position: absolute;
         width: 47%;
-        left: 56%;
+        left: 53%;
     }
     section#section3 {
         position: absolute;
         width: 98%;
-        left: 1%;
+        left: 3%;
         top: 170px;
     }
 }

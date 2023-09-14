@@ -25,7 +25,8 @@ body {
 section {
     background-color: grey;
     border: 3px solid black;
-    margin: 20px;   
+    margin: 20px;
+    width: 26,6%;
 }
 
 h1#mainHeading {
@@ -63,15 +64,15 @@ p {
 
 section#section1 {
     position: absolute;
-    right: 3%;
+    right: 4%;
 }
 section#section2 {
     position: absolute;
-    right: 36%;
+    right: 30.6%;
 }
 section#section3 {
     position: absolute;
-    right: 69%;
+    right: 61.2%;
 }
 /* END OF GENERAL STYLING ======================================== */ 
 

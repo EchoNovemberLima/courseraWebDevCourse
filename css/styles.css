@@ -71,7 +71,7 @@ p {
 
     section#section1 {
         position: absolute;
-        left: 3%;
+        left: 2%;
     }
     section#section2 {
         position: absolute;
@@ -79,7 +79,7 @@ p {
     }
     section#section3 {
         position: absolute;
-        left: 69%;
+        left: 68%;
     }
 }
 
@@ -92,17 +92,17 @@ p {
     section#section1 {
         position: absolute;
         width: 50%;
-        left: 4%;
+        left: 2%;
     }
     section#section2 {
         position: absolute;
         width: 50%;
-        left: 54%;
+        left: 56%;
     }
     section#section3 {
         position: absolute;
         width: 88%;
-        left: 4%;
+        left: 2%;
         top: 170px;
     }
 }
@@ -116,16 +116,16 @@ p {
 
     section#section1 {
         position: absolute;
-        left: 4%;
+        left: 2%;
     }
     section#section2 {
         position: absolute;
-        left: 37%;
+        left: 2%;
         top: 170px;
     }
     section#section3 {
         position: absolute;
-        left: 71%;
+        left: 2%;
         top: 340px;
     }
 }

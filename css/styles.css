@@ -19,24 +19,38 @@ section {
     box-sizing: border-box;
 }
 
-p {
-    padding: 10px;
-    text-align: justify;
-}
-
 h1#mainHeading {
     text-align: center;
     font-size: 175%;
 }
 
-.sectionTitle {
+h2.sectionTitle {
     font-size: 125%;
     box-sizing: border-box;
     width: 33%;
     float: right;
     text-align: center;
     border: 3px solid black;
-    margin-bottom: 20px;
+    margin: 0;
+    margin-top: -2px;
+    margin-right: -3px;
+}
+
+h2#sectionTitle1 {
+    background-color: yellow;
+}
+h2#sectionTitle2 {
+    background-color: blue;
+}
+h2#sectionTitle3 {
+    background-color: maroon;
+}
+
+p {
+    padding: 10px;
+    text-align: justify;
+    margin: 0;
+    display: inline-block;
 }
 /* END OF GENERAL STYLING ======================================== */ 
 

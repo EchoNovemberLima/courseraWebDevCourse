@@ -1,0 +1,130 @@
+/* ===================================================================================================================
+    The browser should display a desktop version of the site when the width of the browser window is 992px and above. 
+    Tablet view should appear only if the width of the browser window is between 768px and 991px, inclusively. 
+    Mobile view should appear only if the width of the browser is equal to or less than 767px. 
+=================================================================================================================== */
+
+/* GENERAL STYLING =============================================== */ 
+/* GLOBAL RESET*/ 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* CONSOLE FONT FOR ALL */
+	font-family: monospace;
+}
+
+#container {
+    position: relative;
+}
+
+section {
+    background-color: grey;
+    border: 3px solid black;
+    overflow: hidden;
+}
+
+h1#mainHeading {
+    text-align: center;
+    font-size: 175%;
+    margin: 40px;
+}
+
+h2.sectionTitle {
+    font-size: 125%;
+    width: 33%;
+    float: right;
+    text-align: center;
+    border: 3px solid black;
+    margin-top: -2px;
+    margin-right: -3px;
+}
+
+h2#sectionTitle1 {
+    background-color: yellow;
+}
+h2#sectionTitle2 {
+    background-color: blue;
+}
+h2#sectionTitle3 {
+    background-color: maroon;
+    color: white;
+}
+
+p {
+    padding: 10px;
+    text-align: justify;
+    display: inline-block;
+}
+/* END OF GENERAL STYLING ======================================== */ 
+
+/* DESKTOP */ 
+@media (min-width: 992px) {
+    section {
+        width: 30%;
+        height: 150px;
+    }
+
+    section#section1 {
+        position: absolute;
+        left: 2.5%;
+    }
+    section#section2 {
+        position: absolute;
+        left: 35%;
+    }
+    section#section3 {
+        position: absolute;
+        left: 67.5%;
+    }
+}
+
+/* TABLET */ 
+@media (min-width: 768px) and (max-width: 991px) {
+    section {
+        height: 150px;
+    }
+
+    section#section1 {
+        position: absolute;
+        width: 45.5%;
+        left: 3%;
+    }
+    section#section2 {
+        position: absolute;
+        width: 45.5%;
+        left: 51.5%;
+    }
+    section#section3 {
+        position: absolute;
+        width: 94%;
+        left: 3%;
+        top: 170px;
+    }
+}
+
+/* MOBILE */ 
+@media (max-width: 767px) {
+    section {
+        width: 90%;
+        height: 150px;
+    }
+
+    section#section1 {
+        position: absolute;
+        left: 5%;
+    }
+    section#section2 {
+        position: absolute;
+        left: 5%;
+        top: 170px;
+    }
+    section#section3 {
+        position: absolute;
+        left: 5%;
+        top: 340px;
+    }
+}

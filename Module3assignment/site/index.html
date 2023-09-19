@@ -13,74 +13,76 @@
     <![endif]-->
 
     <title>Module 3 Assignment by Elias</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- STYLING FILES HREF FOR GITHUB VERSION -->
+    <!-- <link rel="stylesheet" href="https://echonovemberlima.github.io/courseraWebDevCourse/Module3assignment/css/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://echonovemberlima.github.io/courseraWebDevCourse/Module3assignment/css/styles.css"> -->
+    
+    <!-- STYLING FILES HREF FOR LOCAL VERSION/TESTING PURPOSES -->
+    <link rel="stylesheet" href="file:///C:/Users/ElíasNavarreteLee/Documents/courseraWebDevCourse/Module3assignment/css/styles.css">
+    <link rel="stylesheet" href="file:///C:/Users/ElíasNavarreteLee/Documents/courseraWebDevCourse/Module3assignment/css/bootstrap.min.css">
+    
 </head>
 <body>
     <header>
         <!-- HEADER AND NAVBAR START -->
-        <nav class="navbar navbar-default">
+        <nav id="header-nav" class="navbar navbar-default">
             <div class="container-fluid">
-                <!-- Brand and toggle get grouped for better mobile display -->
+                <!-- LOGO AND BUTTON MOBILE DISPLAY -->
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <!-- LOGO -->
+                    <a class="navbar-brand" href="#">Food, LLC</a>
+                    <!-- MOBILE BUTTON -->
+                    <button type="button" id="mobile-menu-button" class="navbar-toggle collapsed navbar-btn" 
+                            data-toggle="collapse" data-target="#collapsable-nav">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Brand</a>
                 </div>
-        
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-                        <li><a href="#">Link</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="#">Separated link</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="#">One more separated link</a></li>
-                            </ul>
+                <!-- END LOGO AND BUTTON MOBILE DISPLAY -->
+
+                <!-- NAV BUTTONS COLLAPSABLE  -->
+                <div id="collapsable-nav" class="collapse navbar-collapse dropdown-content">
+                    <ul id="nav-list" class="nav navbar-nav navbar-center visible-xs">
+                        <li>
+                            <a href="#">Chicken</a>
+                        </li>
+                        <li>
+                            <a href="#">Beef</a>
+                        </li>
+                        <li>
+                            <a href="#">Sushi</a>
                         </li>
                     </ul>
-                    <form class="navbar-form navbar-left">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Search">
-                        </div>
-                        <button type="submit" class="btn btn-default">Submit</button>
-                    </form>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">Link</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="#">Separated link</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div><!-- /.navbar-collapse -->
+                </div>
             </div><!-- /.container-fluid -->
         </nav>
         <!-- HEADER AND NAVBAR END -->
     </header>
 
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-1.11.3.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="C:\Users\ElíasNavarreteLee\Documents\courseraWebDevCourse\Module3assignment\js\jquery-2.1.4.min.js"></script>
+    <script src="C:\Users\ElíasNavarreteLee\Documents\courseraWebDevCourse\Module3assignment\js\bootstrap.min.js"></script>
+    <!-- <script src="js/script.js"></script> -->
 
-  <h1>Hello Coursera!</h1>
+    <h1 class="text-center">Our Menu</h1>
+
+    <div class="container-fluid">
+        <div class="text-justify col-xs-12 text-menu">
+            <h4 class="text-center text-bold">Chicken</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Hendrerit gravida rutrum quisque non tellus orci ac auctor augue. Amet commodo nulla facilisi nullam vehicula ipsum a arcu. 
+                Laoreet sit amet cursus sit amet dictum sit amet justo. Eu facilisis sed odio morbi quis commodo. 
+                Eu facilisis sed odio morbi quis commodo odio. Diam vel quam elementum pulvinar etiam. 
+                Nunc aliquet bibendum enim facilisis gravida neque convallis a cras. Quam viverra orci sagittis eu volutpat odio. 
+                Nulla aliquet enim tortor at auctor urna. In fermentum posuere urna nec tincidunt praesent semper feugiat. 
+                Nunc vel risus commodo viverra maecenas accumsan. Sed enim ut sem viverra aliquet eget sit. 
+                Varius quam quisque id diam vel quam. Malesuada pellentesque elit eget gravida cum sociis natoque. 
+                Nisl rhoncus mattis rhoncus urna neque viverra justo. Diam maecenas sed enim ut sem viverra aliquet eget sit.</p>
+        </div>
+    </div>
 
 </body>
 </html>

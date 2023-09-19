@@ -1,0 +1,63 @@
+/* GLOBAL PARAMS*/
+.text-bold{
+    font-weight: bold;
+}
+
+/* HEADER NAV BAR */
+#header-nav {
+    background-color: lightgrey;
+    border-radius: 0;
+    border: 0;
+}
+/* NAV BAR LOGO */
+.navbar-brand{
+    float:left;
+    height:50px;
+    padding:15px 15px;
+    font-size:28px;
+    line-height:20px
+}
+.navbar-brand>img{display:block}
+
+.navbar-default .navbar-brand {
+    color: black;
+}
+.navbar-brand:focus,.navbar-brand:hover{
+    color: white;
+    text-decoration:none;
+}
+/* END NAV BAR LOGO */
+
+/* NAV BAR BUTTON DROPDOWN */
+#mobile-menu-button:hover{
+    border-color: white;
+    color: white;
+    
+}
+.icon-bar:hover{
+    background-color: white;
+}
+#collapsable-nav{
+    box-sizing: border-box;
+    width: 100%;
+}
+#nav-list a {
+    color: black;
+    text-align: center;
+}
+#nav-list a:hover {
+    background-color: aqua;
+}
+/* END NAV BAR BUTTON DROPDOWN */
+
+/* END HEADER NAV BAR */
+
+
+/* BODY */
+.text-menu{
+    background-color: grey;
+    padding: 10px;
+    height: 1000px;
+}
+
+/* END BODY */

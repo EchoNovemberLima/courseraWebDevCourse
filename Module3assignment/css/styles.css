@@ -54,10 +54,70 @@
 
 
 /* BODY */
-.text-menu{
-    background-color: grey;
-    padding: 10px;
-    height: 1000px;
+.menu-div {
+    padding: 5px; 
+    margin-top: 15px; 
+    margin-bottom: 15px;
+    overflow: hidden;
+    box-sizing: border-box;
 }
-
+.menu-section{
+    background-color: grey;
+    padding: 10px; 
+    height: 100%;
+    overflow: hidden;
+}
 /* END BODY */
+
+@media only screen and (min-width: 768px) {
+    /* For tablets: */
+    .menu-div {
+        height: 350px;
+    }
+    .menu-div-xs {
+        height: 200px;
+    }
+    .row-top {
+        height: 10%;
+        overflow: hidden;
+        margin-bottom: 5%;
+    }
+    .row-mid {
+        height: 70%;
+        overflow: hidden;
+        margin-bottom: 5%;
+    }
+    .row-mid-xs {
+        height: 70%;
+        overflow: hidden;
+        margin-bottom: 0%;
+    }
+    .row-bot {
+        height: 15%;
+        overflow: hidden;
+    }
+    
+
+}
+  
+@media only screen and (min-width: 992px) {
+    /* For desktop: */
+    .menu-div {
+        height: 350px;
+    }
+    .row-top {
+        height: 10%;
+        overflow: hidden;
+        margin-bottom: 5%;
+    }
+    .row-mid {
+        height: 70%;
+        overflow: hidden;
+        margin-bottom: 5%;
+    }
+    }
+    .row-bot {
+        height: 15%;
+        overflow: hidden;
+    }
+}

@@ -9,4 +9,7 @@ Repository for the HTML, CSS, and Javascript for Web Developers course from John
 
 [Module 3 Assignment](https://echonovemberlima.github.io/courseraWebDevCourse/Module3assignment/site/)
 
+[Module 4 Assignment](https://echonovemberlima.github.io/courseraWebDevCourse/Module4assignment/)
+
 ![alt text](https://img.freepik.com/free-vector/work-home-concept-design-freelance-man-working-laptop-her-house_1150-41115.jpg?w=740&t=st=1695148991~exp=1695149591~hmac=4723c9963c9e50c3275a67301e0f854cfcfc65742524d498bacfd44d767e702f)
+

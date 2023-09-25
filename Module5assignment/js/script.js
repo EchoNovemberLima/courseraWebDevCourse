@@ -82,7 +82,13 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
   showLoading("#main-content");
   $ajaxUtils.sendGetRequest(
     allCategoriesUrl,
-    buildAndShowHomeHTML(), // ***** <---- TODO: STEP 1: Substitute [...] ******
+    // buildAndShowHomeHTML(), // ***** <---- TODO: STEP 1: Substitute [...] ******
+
+    function (responseText) {
+      document.querySelector("#main-content")
+        .innerHTML = responseText;
+    },
+
     true); // Explicitly setting the flag to get JSON from server processed into an object literal
   });
   // *** finish **
